@@ -1,0 +1,25 @@
+#this is a single line comment
+
+=begin
+  this is
+  a multiple line comment
+=end
+
+=begin
+  For lack of a better solution, this code can be tested on the following link:
+  https://repl.it/@Clockknight/VastLumpyZander
+=end
+
+
+puts "Please enter the first variable for the multiplying calculator."
+#Promt user for variable.
+calc_num1 = gets.to_i
+#User types in answer, and is stored into a variable, for later.
+
+puts "\nPlease enter the second variable for the multiplying calculator."
+calc_num1 *= gets.to_i
+#Similar process to above, only different variable used.
+
+print "\n "
+print calc_num1
+#Print result for user
