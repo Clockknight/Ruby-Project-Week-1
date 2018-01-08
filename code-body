@@ -20,6 +20,5 @@ puts "\nPlease enter the second variable for the multiplying calculator."
 calc_num1 *= gets.to_i
 #Similar process to above, only different variable used.
 
-print "\n "
-print calc_num1
-#Print result for user
+output = calc_num1
+#Turn output into the result, then close.
